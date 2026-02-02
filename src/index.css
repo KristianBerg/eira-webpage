@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-text-primary: #333;
+  --color-text-secondary: #666;
+  --color-background: #fff;
+  --color-background-outer: #e8e4e0;
+  --color-background-nav: #f5f5f5;
+  --color-background-muted: #f0f0f0;
+  --color-overlay: rgba(0, 0, 0, 0.6);
+  --color-overlay-text: #fff;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  color: var(--color-text-primary);
+  background: var(--color-background);
+}
