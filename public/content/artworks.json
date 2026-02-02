@@ -1,0 +1,10 @@
+{
+  "artworks": [
+    {
+      "title": "Sample Artwork",
+      "description": "This is a sample artwork. Edit or delete it from the admin panel.",
+      "price": "$100",
+      "images": ["/images/artworks/placeholder.svg"]
+    }
+  ]
+}

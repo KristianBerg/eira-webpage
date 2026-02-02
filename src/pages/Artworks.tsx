@@ -1,5 +1,13 @@
+import { useState, useEffect } from 'react'
 import styled from 'styled-components'
 import { ArtworkCard } from '../components/ArtworkCard'
+
+interface Artwork {
+  title: string
+  images: string[]
+  description?: string
+  price?: string
+}
 
 const Title = styled.h1`
   font-size: 32px;
@@ -12,39 +20,21 @@ const Gallery = styled.div`
   gap: 32px;
 `
 
-// Placeholder images for testing - replace with real artwork images
-const exampleArtworks = [
-  {
-    title: 'Mountain Sunrise',
-    images: [
-      'https://picsum.photos/seed/art1a/800/600',
-      'https://picsum.photos/seed/art1b/800/600',
-      'https://picsum.photos/seed/art1c/800/600',
-    ],
-    description: 'Oil on canvas, 60x80cm',
-    price: '2 500 kr',
-  },
-  {
-    title: 'Abstract Dreams',
-    images: ['https://picsum.photos/seed/art2/600/600'],
-    description: 'Acrylic on canvas, 40x40cm',
-  },
-  {
-    title: 'Forest Path',
-    images: [
-      'https://picsum.photos/seed/art3a/800/1000',
-      'https://picsum.photos/seed/art3b/800/1000',
-    ],
-    price: '1 800 kr',
-  },
-]
-
 export function Artworks() {
+  const [artworks, setArtworks] = useState<Artwork[]>([])
+
+  useEffect(() => {
+    fetch('/content/artworks.json')
+      .then(res => res.json())
+      .then(data => setArtworks(data.artworks))
+      .catch(err => console.error('Failed to load artworks:', err))
+  }, [])
+
   return (
     <div>
       <Title>Artworks</Title>
       <Gallery>
-        {exampleArtworks.map(artwork => (
+        {artworks.map(artwork => (
           <ArtworkCard
             key={artwork.title}
             title={artwork.title}
