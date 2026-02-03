@@ -2,7 +2,8 @@ backend:
   name: github
   repo: KristianBerg/eira-webpage
   branch: main
-  base_url: https://decap-oauth.netlify.app # Free OAuth provider, or replace with your own
+  auth_type: pkce
+  app_id: Ov23liNvnUnpYjaMpmFi
 
 media_folder: public/images/artworks
 public_folder: /images/artworks
