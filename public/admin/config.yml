@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: OWNER/REPO # Replace with your GitHub username/repo, e.g., eira/eira-webpage
+  repo: KristianBerg/eira-webpage
   branch: main
   base_url: https://decap-oauth.netlify.app # Free OAuth provider, or replace with your own
 
