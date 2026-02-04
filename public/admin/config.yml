@@ -26,3 +26,13 @@ collections:
                 name: images
                 widget: list
                 field: { label: Image, name: image, widget: image }
+  - name: pages
+    label: Pages
+    files:
+      - name: about
+        label: About
+        file: public/content/about.json
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Description, name: description, widget: text }
+          - { label: Photo, name: photo, widget: image }
