@@ -2,8 +2,7 @@ backend:
   name: github
   repo: KristianBerg/eira-webpage
   branch: main
-  auth_type: pkce
-  app_id: Ov23liuyqFzMjyovQfgG
+  base_url: https://sveltia-cms-auth.kristianberg-jobb.workers.dev
 
 media_folder: public/images/artworks
 public_folder: /images/artworks
