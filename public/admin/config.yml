@@ -36,3 +36,21 @@ collections:
           - { label: Title, name: title, widget: string }
           - { label: Description, name: description, widget: text }
           - { label: Photo, name: photo, widget: image }
+  - name: settings
+    label: Settings
+    files:
+      - name: settings
+        label: Site Settings
+        file: public/content/settings.json
+        fields:
+          - label: Font
+            name: font
+            widget: select
+            options:
+              - Playfair Display
+              - Cormorant Garamond
+              - Libre Baskerville
+              - Lora
+              - Inter
+              - Raleway
+              - Work Sans
