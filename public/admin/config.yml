@@ -54,3 +54,13 @@ collections:
               - Inter
               - Raleway
               - Work Sans
+          - label: Colors
+            name: colors
+            widget: object
+            fields:
+              - { label: Text (Primary), name: textPrimary, widget: color }
+              - { label: Text (Secondary), name: textSecondary, widget: color }
+              - { label: Background, name: background, widget: color }
+              - { label: Background (Outer), name: backgroundOuter, widget: color }
+              - { label: Background (Nav), name: backgroundNav, widget: color }
+              - { label: Background (Muted), name: backgroundMuted, widget: color }

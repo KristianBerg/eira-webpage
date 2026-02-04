@@ -1,10 +1,10 @@
 export const colors = {
-  textPrimary: '#333',
-  textSecondary: '#666',
-  background: '#fff',
-  backgroundOuter: '#e8e4e0',
-  backgroundNav: '#f5f5f5',
-  backgroundMuted: '#f0f0f0',
+  textPrimary: 'var(--color-text-primary)',
+  textSecondary: 'var(--color-text-secondary)',
+  background: 'var(--color-background)',
+  backgroundOuter: 'var(--color-background-outer)',
+  backgroundNav: 'var(--color-background-nav)',
+  backgroundMuted: 'var(--color-background-muted)',
   overlay: 'rgba(0, 0, 0, 0.6)',
   overlayText: '#fff',
 }

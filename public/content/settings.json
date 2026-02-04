@@ -1,3 +1,11 @@
 {
-  "font": "Playfair Display"
+  "font": "Playfair Display",
+  "colors": {
+    "textPrimary": "#333333",
+    "textSecondary": "#666666",
+    "background": "#ffffff",
+    "backgroundOuter": "#e8e4e0",
+    "backgroundNav": "#f5f5f5",
+    "backgroundMuted": "#f0f0f0"
+  }
 }
