@@ -5,7 +5,7 @@ import { AboutEira } from './pages/AboutEira'
 
 function App() {
   return (
-    <BrowserRouter basename="/eira-webpage">
+    <BrowserRouter>
       <Routes>
         <Route element={<Layout />}>
           <Route path="/" element={<Artworks />} />
