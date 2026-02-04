@@ -3,7 +3,7 @@ backend:
   repo: KristianBerg/eira-webpage
   branch: main
   auth_type: pkce
-  app_id: Ov23liNvnUnpYjaMpmFi
+  app_id: Ov23liuyqFzMjyovQfgG
 
 media_folder: public/images/artworks
 public_folder: /images/artworks
