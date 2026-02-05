@@ -11,6 +11,12 @@ interface ArtworkCardProps {
 
 const Card = styled.article`
   max-width: 400px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  }
 `
 
 const ImageArea = styled.div`
@@ -51,6 +57,11 @@ const Image = styled.img`
   width: 100%;
   height: auto;
   cursor: pointer;
+  transition: opacity 0.2s ease;
+
+  &:hover {
+    opacity: 0.9;
+  }
 `
 
 const ImageCounter = styled.div`
