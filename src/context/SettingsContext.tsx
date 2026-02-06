@@ -1,4 +1,4 @@
-import { createContext, useContext, useEffect, useState, ReactNode } from 'react'
+import { createContext, useContext, useEffect, useState, type ReactNode } from 'react'
 
 interface Colors {
   textPrimary: string
@@ -28,6 +28,7 @@ const defaultSettings: Settings = {
 
 const SettingsContext = createContext<Settings>(defaultSettings)
 
+// eslint-disable-next-line react-refresh/only-export-components
 export function useSettings() {
   return useContext(SettingsContext)
 }
