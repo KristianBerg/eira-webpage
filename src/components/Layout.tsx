@@ -2,14 +2,14 @@ import { Outlet, Link } from 'react-router-dom'
 import styled from 'styled-components'
 import { colors } from '../theme/colors'
 
-const PageWrapper = styled.div`
+export const PageWrapper = styled.div`
   min-height: 100vh;
   display: flex;
   justify-content: center;
   background: ${colors.backgroundOuter};
 `
 
-const Container = styled.div`
+export const Container = styled.div`
   width: 100%;
   max-width: 1000px;
   min-height: 100vh;
@@ -18,14 +18,14 @@ const Container = styled.div`
   background: ${colors.background};
 `
 
-const Nav = styled.nav`
+export const Nav = styled.nav`
   display: flex;
   gap: 24px;
   padding: 20px 40px;
   background: ${colors.backgroundNav};
 `
 
-const NavLink = styled(Link)`
+export const NavLink = styled(Link)`
   text-decoration: none;
   color: ${colors.textPrimary};
   font-size: 18px;
@@ -35,12 +35,12 @@ const NavLink = styled(Link)`
   }
 `
 
-const Main = styled.main`
+export const Main = styled.main`
   flex: 1;
   padding: 40px;
 `
 
-const Footer = styled.footer`
+export const Footer = styled.footer`
   padding: 24px 40px;
   background: ${colors.backgroundMuted};
   text-align: center;
@@ -51,7 +51,7 @@ const Footer = styled.footer`
   gap: 8px;
 `
 
-const FooterLink = styled.a`
+export const FooterLink = styled.a`
   color: ${colors.textSecondary};
   text-decoration: none;
 
@@ -60,7 +60,7 @@ const FooterLink = styled.a`
   }
 `
 
-const FooterTitle = styled.h3`
+export const FooterTitle = styled.h3`
   font-size: 14px;
   font-weight: 600;
   color: ${colors.textPrimary};
