@@ -1,8 +1,8 @@
 {
-  "font": "Playfair Display",
+  "font": "Cormorant Garamond",
   "colors": {
-    "textPrimary": "#333333",
-    "textSecondary": "#666666",
+    "textPrimary": "#004040",
+    "textSecondary": "#497675",
     "background": "#ffffff",
     "backgroundOuter": "#e8e4e0",
     "backgroundNav": "#f5f5f5",
