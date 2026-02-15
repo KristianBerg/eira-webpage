@@ -27,6 +27,23 @@
         "/images/artworks/20230113_122340(1).jpg",
         "/images/artworks/20230113_121156.jpg"
       ]
+    },
+    {
+      "title": "Korp",
+      "description": "Kol och torrpastell på golvskyddspapper. 2018.",
+      "price": "Såld",
+      "images": [
+        "/images/artworks/IMG_20190417_195231.jpg"
+      ]
+    },
+    {
+      "title": "Fontänansikte",
+      "description": "Stengods. 2023.",
+      "price": "-",
+      "images": [
+        "/images/artworks/20240611_145035.jpg",
+        "/images/artworks/20240611_145108.jpg"
+      ]
     }
   ]
 }
