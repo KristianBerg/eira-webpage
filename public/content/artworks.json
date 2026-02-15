@@ -1,19 +1,31 @@
 {
   "artworks": [
     {
-      "title": "Sample Artwork",
-      "description": "This is a sample artwork. Edit or delete it from the admin panel.",
-      "price": "$100",
+      "title": "Ofelia",
+      "description": "Diptyk. Akryl på pannå. 2023.",
+      "price": "-",
       "images": [
-        "/images/artworks/placeholder.svg"
+        "/images/artworks/IMG_6921.JPG"
       ]
     },
     {
-      "title": "Sample 2",
-      "description": "This was added using the admin interface!",
-      "price": "",
+      "title": "Leende ansikte",
+      "description": "Stengods . 2024.",
+      "price": "Såld",
       "images": [
-        "/images/artworks/placeholder.svg"
+        "/images/artworks/IMG_6912.JPG",
+        "/images/artworks/IMG_6913.JPG"
+      ]
+    },
+    {
+      "title": "Hirkus",
+      "description": "Polymerlera, textil, ståltråd mm. 2020.",
+      "price": "-",
+      "images": [
+        "/images/artworks/20230113_121641(1).jpg",
+        "/images/artworks/20230113_121812(1).jpg",
+        "/images/artworks/20230113_122340(1).jpg",
+        "/images/artworks/20230113_121156.jpg"
       ]
     }
   ]
