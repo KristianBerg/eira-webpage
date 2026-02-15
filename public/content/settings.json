@@ -4,8 +4,8 @@
     "textPrimary": "#004040",
     "textSecondary": "#497675",
     "background": "#ffffff",
-    "backgroundOuter": "#e8e4e0",
-    "backgroundNav": "#f5f5f5",
+    "backgroundOuter": "#bed6cd",
+    "backgroundNav": "#e1ecec",
     "backgroundMuted": "#f0f0f0"
   }
 }
