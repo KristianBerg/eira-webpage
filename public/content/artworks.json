@@ -52,6 +52,22 @@
       "images": [
         "/images/artworks/Angel2_30x30_1st.JPG"
       ]
+    },
+    {
+      "title": "Faun",
+      "description": "Stengods, akryl. 2025.",
+      "price": "",
+      "images": [
+        "/images/artworks/faun.jpg"
+      ]
+    },
+    {
+      "title": "Rosa skål",
+      "description": "Stengods. 2023.",
+      "price": "",
+      "images": [
+        "/images/artworks/rosa skål.jpg"
+      ]
     }
   ]
 }
