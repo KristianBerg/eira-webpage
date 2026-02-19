@@ -83,8 +83,24 @@
       "price": "",
       "images": [
         "/images/artworks/ålkvinna-beskuren.JPG",
-        "/images/artworks/ålkvinna-grön-ljus.JPG",
         "/images/artworks/ålkvinna-dramatiskkall.JPG"
+      ]
+    },
+    {
+      "title": "Svampplockarpåse",
+      "description": "En hoprullbar påse att fästa på bältet, för svampplockning eller dylikt. Görs i flera olika färger och broderier.",
+      "price": "Slut på lager",
+      "images": [
+        "/images/artworks/plockpåse2.jpg",
+        "/images/artworks/plockpåse.jpg"
+      ]
+    },
+    {
+      "title": "Ängel",
+      "description": "Blyerts. 2021.",
+      "price": "",
+      "images": [
+        "/images/artworks/Angel1_30x30_forbattrad.JPG"
       ]
     }
   ]
