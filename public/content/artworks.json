@@ -68,6 +68,24 @@
       "images": [
         "/images/artworks/rosa skål.jpg"
       ]
+    },
+    {
+      "title": "Hugin och Munin",
+      "description": "Akryl på papp. 2018.",
+      "price": "",
+      "images": [
+        "/images/artworks/kråkor på axlarna.JPG"
+      ]
+    },
+    {
+      "title": "Ålen",
+      "description": "Blyerts, 2021.",
+      "price": "",
+      "images": [
+        "/images/artworks/ålkvinna-beskuren.JPG",
+        "/images/artworks/ålkvinna-grön-ljus.JPG",
+        "/images/artworks/ålkvinna-dramatiskkall.JPG"
+      ]
     }
   ]
 }
