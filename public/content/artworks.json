@@ -3,7 +3,7 @@
     {
       "title": "Ofelia",
       "description": "Diptyk. Akryl på pannå. 2023.",
-      "price": "-",
+      "price": "",
       "images": [
         "/images/artworks/IMG_6921.JPG"
       ]
@@ -20,7 +20,7 @@
     {
       "title": "Hirkus",
       "description": "Polymerlera, textil, ståltråd mm. 2020.",
-      "price": "-",
+      "price": "",
       "images": [
         "/images/artworks/20230113_121641(1).jpg",
         "/images/artworks/20230113_121812(1).jpg",
@@ -39,7 +39,7 @@
     {
       "title": "Fontänansikte",
       "description": "Stengods. 2023.",
-      "price": "-",
+      "price": "",
       "images": [
         "/images/artworks/20240611_145035.jpg",
         "/images/artworks/20240611_145108.jpg"
@@ -101,6 +101,17 @@
       "price": "",
       "images": [
         "/images/artworks/Angel1_30x30_forbattrad.JPG"
+      ]
+    },
+    {
+      "title": "Pyssling",
+      "description": "Polymerlera, textil, ståltråd,  mm. 2026.",
+      "price": "",
+      "images": [
+        "/images/artworks/20260125_130657.jpg",
+        "/images/artworks/20260125_130624.jpg",
+        "/images/artworks/20260125_130303.jpg",
+        "/images/artworks/20260125_131041.jpg"
       ]
     }
   ]
