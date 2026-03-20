@@ -20,36 +20,50 @@ const Card = styled.article`
 `
 
 const ImageArea = styled.div`
-  display: flex;
-  align-items: center;
   background: ${colors.backgroundMuted};
   border-radius: 8px;
 `
 
 const NavButton = styled.button`
-  flex-shrink: 0;
-  width: 36px;
-  background: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: ${colors.overlay};
   border: none;
   cursor: pointer;
-  font-size: 24px;
-  color: ${colors.textSecondary};
+  font-size: 20px;
+  color: ${colors.overlayText};
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 0;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  z-index: 1;
 
   &:hover {
-    color: ${colors.textPrimary};
+    background: ${colors.textSecondary};
   }
 `
 
-const NavPlaceholder = styled.div`
-  width: 36px;
-  flex-shrink: 0;
+const NavButtonPrev = styled(NavButton)`
+  left: 8px;
+`
+
+const NavButtonNext = styled(NavButton)`
+  right: 8px;
 `
 
 const ImageContainer = styled.div`
   position: relative;
-  flex: 1;
   min-width: 0;
+
+  &:hover ${NavButton} {
+    opacity: 1;
+  }
 `
 
 const Image = styled.img`
@@ -231,24 +245,20 @@ export function ArtworkCard({ title, images, description, price }: ArtworkCardPr
     <>
       <Card>
         <ImageArea>
-          {hasMultipleImages ? (
-            <NavButton onClick={goToPrevious}>&#8249;</NavButton>
-          ) : (
-            <NavPlaceholder />
-          )}
           <ImageContainer>
+            {hasMultipleImages && (
+              <NavButtonPrev onClick={goToPrevious}>&#8249;</NavButtonPrev>
+            )}
             <Image src={images[currentIndex]} alt={title} onClick={openLightbox} />
             {hasMultipleImages && (
-              <ImageCounter>
-                {currentIndex + 1} / {images.length}
-              </ImageCounter>
+              <>
+                <ImageCounter>
+                  {currentIndex + 1} / {images.length}
+                </ImageCounter>
+                <NavButtonNext onClick={goToNext}>&#8250;</NavButtonNext>
+              </>
             )}
           </ImageContainer>
-          {hasMultipleImages ? (
-            <NavButton onClick={goToNext}>&#8250;</NavButton>
-          ) : (
-            <NavPlaceholder />
-          )}
         </ImageArea>
         <Content>
           <Title>{title}</Title>
