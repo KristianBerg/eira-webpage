@@ -45,7 +45,7 @@ collections:
                 widget: list
                 field: { label: Image, name: image, widget: image }
   - name: pages
-    label: Pages
+    label: About
     files:
       - name: about
         label: About
