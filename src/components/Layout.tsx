@@ -80,7 +80,7 @@ export function Layout() {
         </Main>
         <Footer>
           <FooterTitle>Kontaktuppgifter</FooterTitle>
-          <div>Eira</div>
+          <div>Eira Westrin</div>
           <FooterLink href="mailto:contact@eirawestrin.art">contact@eirawestrin.art</FooterLink>
           <FooterLink href="https://instagram.com/eirawestrin_konst" target="_blank" rel="noopener noreferrer">
             @eirawestrin_konst
