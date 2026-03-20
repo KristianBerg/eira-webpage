@@ -22,6 +22,7 @@ const Card = styled.article`
 const ImageArea = styled.div`
   background: ${colors.backgroundMuted};
   border-radius: 8px;
+  overflow: hidden;
 `
 
 const NavButton = styled.button`
