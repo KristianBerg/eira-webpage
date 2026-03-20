@@ -10,11 +10,13 @@ interface Colors {
 }
 
 interface Settings {
+  printsVisible: boolean
   font: string
   colors: Colors
 }
 
 const defaultSettings: Settings = {
+  printsVisible: false,
   font: 'Playfair Display',
   colors: {
     textPrimary: '#333333',

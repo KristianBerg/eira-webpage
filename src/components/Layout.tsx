@@ -1,6 +1,7 @@
 import { Outlet, Link } from 'react-router-dom'
 import styled from 'styled-components'
 import { colors } from '../theme/colors'
+import { useSettings } from '../context/SettingsContext'
 
 export const PageWrapper = styled.div`
   min-height: 100vh;
@@ -68,11 +69,14 @@ export const FooterTitle = styled.h3`
 `
 
 export function Layout() {
+  const { printsVisible } = useSettings()
+
   return (
     <PageWrapper>
       <Container>
         <Nav>
           <NavLink to="/">Konstverk</NavLink>
+          {printsVisible && <NavLink to="/prints">Prints</NavLink>}
           <NavLink to="/about">Om Eira</NavLink>
         </Nav>
         <Main>
