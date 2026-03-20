@@ -72,14 +72,14 @@ export function Layout() {
     <PageWrapper>
       <Container>
         <Nav>
-          <NavLink to="/">Artworks</NavLink>
-          <NavLink to="/about">About Eira</NavLink>
+          <NavLink to="/">Konstverk</NavLink>
+          <NavLink to="/about">Om Eira</NavLink>
         </Nav>
         <Main>
           <Outlet />
         </Main>
         <Footer>
-          <FooterTitle>Contact details</FooterTitle>
+          <FooterTitle>Kontaktuppgifter</FooterTitle>
           <div>Eira</div>
           <FooterLink href="mailto:contact@eirawestrin.art">contact@eirawestrin.art</FooterLink>
           <FooterLink href="https://instagram.com/eirawestrin_konst" target="_blank" rel="noopener noreferrer">

@@ -32,7 +32,7 @@ export function Artworks() {
 
   return (
     <div>
-      <Title>Artworks</Title>
+      <Title>Konstverk</Title>
       <Gallery>
         {artworks.map(artwork => (
           <ArtworkCard

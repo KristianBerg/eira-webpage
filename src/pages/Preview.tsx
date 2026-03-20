@@ -250,14 +250,14 @@ export function Preview() {
           <PageWrapper>
             <Container>
               <Nav>
-                <PreviewNavSpan>Artworks</PreviewNavSpan>
-                <PreviewNavSpan>About Eira</PreviewNavSpan>
+                <PreviewNavSpan>Konstverk</PreviewNavSpan>
+                <PreviewNavSpan>Om Eira</PreviewNavSpan>
               </Nav>
               <Main>
                 {view === 'artworks' ? <Artworks /> : <AboutEira />}
               </Main>
               <Footer>
-                <FooterTitle>Contact details</FooterTitle>
+                <FooterTitle>Kontaktuppgifter</FooterTitle>
                 <div>Eira</div>
                 <FooterLink href="mailto:contact@eirawestrin.art">contact@eirawestrin.art</FooterLink>
                 <FooterLink href="https://instagram.com/eirawestrin_konst" target="_blank" rel="noopener noreferrer">@eirawestrin_konst</FooterLink>
