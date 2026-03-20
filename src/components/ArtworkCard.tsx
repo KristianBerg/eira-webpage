@@ -26,16 +26,12 @@ const ImageArea = styled.div`
 
 const NavButton = styled.button`
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  background: ${colors.overlay};
+  top: 0;
+  width: 48px;
+  height: 100%;
+  background: none;
   border: none;
   cursor: pointer;
-  font-size: 20px;
-  color: ${colors.overlayText};
   display: flex;
   align-items: center;
   justify-content: center;
@@ -44,17 +40,29 @@ const NavButton = styled.button`
   transition: opacity 0.2s ease;
   z-index: 1;
 
-  &:hover {
+  & > span {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: ${colors.overlay};
+    font-size: 20px;
+    color: ${colors.overlayText};
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &:hover > span {
     background: ${colors.textSecondary};
   }
 `
 
 const NavButtonPrev = styled(NavButton)`
-  left: 8px;
+  left: 0;
 `
 
 const NavButtonNext = styled(NavButton)`
-  right: 8px;
+  right: 0;
 `
 
 const ImageContainer = styled.div`
@@ -247,7 +255,7 @@ export function ArtworkCard({ title, images, description, price }: ArtworkCardPr
         <ImageArea>
           <ImageContainer>
             {hasMultipleImages && (
-              <NavButtonPrev onClick={goToPrevious}>&#8249;</NavButtonPrev>
+              <NavButtonPrev onClick={goToPrevious}><span>&#8249;</span></NavButtonPrev>
             )}
             <Image src={images[currentIndex]} alt={title} onClick={openLightbox} />
             {hasMultipleImages && (
@@ -255,7 +263,7 @@ export function ArtworkCard({ title, images, description, price }: ArtworkCardPr
                 <ImageCounter>
                   {currentIndex + 1} / {images.length}
                 </ImageCounter>
-                <NavButtonNext onClick={goToNext}>&#8250;</NavButtonNext>
+                <NavButtonNext onClick={goToNext}><span>&#8250;</span></NavButtonNext>
               </>
             )}
           </ImageContainer>
