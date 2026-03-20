@@ -82,8 +82,8 @@ export function Layout() {
           <FooterTitle>Contact details</FooterTitle>
           <div>Eira</div>
           <FooterLink href="mailto:eira@example.com">eira@example.com</FooterLink>
-          <FooterLink href="https://instagram.com/eira" target="_blank" rel="noopener noreferrer">
-            @eira
+          <FooterLink href="https://instagram.com/eirawestrin_konst" target="_blank" rel="noopener noreferrer">
+            @eirawestrin_konst
           </FooterLink>
         </Footer>
       </Container>
